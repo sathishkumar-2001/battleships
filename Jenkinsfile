@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/your-image-name:latest'
+        DOCKER_IMAGE = 'sathishkumar111/$IMAGE_NAME'
         DOCKER_HUB_CREDENTIALS = 'docker-hub-credentials'
     }
     stages {
