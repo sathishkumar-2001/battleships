@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'sathishkumar111/$IMAGE_NAME'
+        DOCKER_IMAGE = 'sathishkumar111/battleship:v1'
         DOCKER_HUB_CREDENTIALS = 'docker-hub-credentials'
     }
     stages {
